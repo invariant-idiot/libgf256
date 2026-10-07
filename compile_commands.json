@@ -1,0 +1,121 @@
+[
+  {
+    "file": "src/gf256.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-I.",
+      "-O3",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-c",
+      "src/gf256.c",
+      "-o",
+      "build/gf256.o"
+    ],
+    "directory": "/home/bl1nd/DEV/libgf256",
+    "output": "build/gf256.o"
+  },
+  {
+    "file": "src/gf256_base.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-I.",
+      "-O3",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-c",
+      "src/gf256_base.c",
+      "-o",
+      "build/gf256_base.o"
+    ],
+    "directory": "/home/bl1nd/DEV/libgf256",
+    "output": "build/gf256_base.o"
+  },
+  {
+    "file": "src/gf256_cpu.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-I.",
+      "-O3",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-c",
+      "src/gf256_cpu.c",
+      "-o",
+      "build/gf256_cpu.o"
+    ],
+    "directory": "/home/bl1nd/DEV/libgf256",
+    "output": "build/gf256_cpu.o"
+  },
+  {
+    "file": "src/gf256_threading.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-I.",
+      "-O3",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-c",
+      "src/gf256_threading.c",
+      "-o",
+      "build/gf256_threading.o"
+    ],
+    "directory": "/home/bl1nd/DEV/libgf256",
+    "output": "build/gf256_threading.o"
+  },
+  {
+    "file": "src/gf256_gfni_avx256.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-I.",
+      "-O3",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-mavx2",
+      "-mgfni",
+      "-c",
+      "src/gf256_gfni_avx256.c",
+      "-o",
+      "build/gf256_gfni_avx256.o"
+    ],
+    "directory": "/home/bl1nd/DEV/libgf256",
+    "output": "build/gf256_gfni_avx256.o"
+  },
+  {
+    "file": "src/gf256_gfni_avx512.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-I.",
+      "-O3",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-mavx512f",
+      "-mavx512bw",
+      "-mgfni",
+      "-c",
+      "src/gf256_gfni_avx512.c",
+      "-o",
+      "build/gf256_gfni_avx512.o"
+    ],
+    "directory": "/home/bl1nd/DEV/libgf256",
+    "output": "build/gf256_gfni_avx512.o"
+  }
+]
